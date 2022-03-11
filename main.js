@@ -1,4 +1,4 @@
-const headRow = [...document.querySelectorAll('table thead tr td')]
+const headRow = [...document.querySelectorAll('table thead th')]
 	.map(column => column.textContent.trim());
 
 const rows = [...document.querySelectorAll('table tbody tr')]
