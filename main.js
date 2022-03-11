@@ -21,7 +21,7 @@ function showCsv(){
 function download(){
 	if (window.navigator.msSaveOrOpenBlob) { 
 		// IE hack; see http://msdn.microsoft.com/en-us/library/ie/hh779016.aspx
-		navigator.msSaveBlob(csvBlob, 'exampleTable.csv');
+		navigator.msSaveBlob(csvBlob, 'FirewallRules.csv');
 	} else {
 		const objectUrl = URL.createObjectURL(csvBlob);
 		const a = document.createElement('a');
