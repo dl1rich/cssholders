@@ -26,7 +26,7 @@ function download(){
 		const objectUrl = URL.createObjectURL(csvBlob);
 		const a = document.createElement('a');
 		a.setAttribute('href', objectUrl);
-		a.setAttribute('download', 'exampleTable.csv');
+		a.setAttribute('download', 'FirewallRules.csv');
 
 		document.body.appendChild(a);
 		a.click();
